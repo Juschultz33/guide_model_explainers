@@ -85,9 +85,14 @@ and how much it changes it by. We'll show an example of this more in later secti
 
 # What do we do with the info a model explainer gives us? 
 
-???
-
-Justin's presenter notes
+Model explainers give us a good look into the black box and what is happening in the background of the 'black box'.
+SHAP lets us look at individual SHAP values, and how values could affect the SHAP value. This could give us a look
+into problems with our model that need to be corrected or if our features we have made have too much of an affect on 
+our target variable. 
+      
+In the example of getting approval for a loan a feature like years of credit history might have a large affect on if someone
+gets approved for a loan or not. However, it could also have an affect showing someones age which cannot be discrimiated againt
+when applying for a loan.
 
 ---
 
